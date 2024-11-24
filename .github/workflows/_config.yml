@@ -1,0 +1,25 @@
+# Basic Site Information
+title: "Your Name - Resume" # Title of your site
+description: "A professional resume showcasing Your Name's skills and experiences." # Meta description
+baseurl: "" # If your site is hosted at a subpath (e.g., /resume), add it here. Otherwise, leave blank.
+url: "https://yourusername.github.io" # Your GitHub Pages URL
+
+# Author Information
+author:
+  name: "Your Name"
+  email: "youremail@example.com"
+  linkedin: "https://linkedin.com/in/your-profile"
+  github: "https://github.com/yourusername"
+
+# Build Settings
+markdown: kramdown # The markdown processor to use
+theme: minima # Default Jekyll theme. Replace with your preferred theme.
+plugins:
+  - jekyll-seo-tag # For SEO optimization
+  - jekyll-feed # RSS feed support (optional)
+  - jekyll-sitemap # Generates sitemap.xml for search engines
+  - jekyll-paginate # Pagination support for blogs (optional)
+
+# Custom Variables
+resume_url: "/assets/resume.pdf" # Link to a downloadable PDF version of your resume
+google_analytics: "UA-XXXXXX-X" # Add your Google Analytics tracking ID (optional)
